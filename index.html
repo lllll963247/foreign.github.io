@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="function.js"></script>
+	<script type="text/javascript" src="JQuery.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+	
+</head>
+<body id="body">
+	<div w3-include-html="top.html"></div>
+<script>
+    w3.includeHTML();
+</script>
+
+
+	<div id="bank">
+		
+	</div>
+	<div id="add_div" onclick="" >
+		<form action="addbank.php" method="post" accept-charset="utf-8">
+			<select name="selbank" required>
+				<option value="">請選擇銀行</option>
+				<option value="Taipei">台灣銀行</option>
+				<option value="Taoyuan">玉山銀行</option>
+				<option value="Hsinchu">台新銀行</option>
+			</select>
+			<input type="submit" value="新增">
+		</form>
+		
+	</div>
+	<button type="button" id="addbtn" onclick=""><p>+</p></button>
+	<script>
+		includeHTML();
+	</script>
+
+</body>
+</html>

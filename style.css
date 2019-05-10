@@ -1,0 +1,105 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding:  0;
+}
+.bar{
+	top:0px;
+    left:0px;
+	background-color: #0000ff;
+	z-index: -2;
+	height: 15%;
+	width: 100%	
+}
+#bankbar{
+	position: relative;
+	height: 7%;
+	background-color: #0066ff;
+}
+#topbar{
+	position: absolute;
+}
+h1{
+	font-family: 微軟正黑體;
+	font-size: 5rem;
+	color: white;
+	text-align: center;
+}
+#funside{
+	display: none;
+	position:absolute;
+	top:0px;
+    left:0px;
+	width: 0%;
+	height: 100%;
+	background-color: black;
+	z-index: 7;
+}
+#funsidebtn1{
+	position: relative;
+	top: 5%;
+
+}
+#addbtn{
+	position:fixed;
+	top:80%;
+    left:70%;
+	width: 15em;
+	height: 15em;
+	background-color: red;
+	border-radius: 10em;
+}
+button > p{
+	position: fixed;
+	top:74%;
+    left:76%;
+	font-size: 10em;
+	color: white;
+}
+#add_div{
+	display: none;
+	position:absolute;
+	top:25%;
+    left:25%;
+	width: 30em;
+	height: 50em;
+	border: 3px solid black;
+	border-radius: 2em;
+	box-shadow: 5px 5px grey;
+	z-index: 7;
+	background-color: white;
+
+}
+#bg_grey {
+  display:none;/* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 6; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+
+}
+select{
+	height: 10%;
+	width: 50%;
+	font-size: 2em;
+	border-radius: 10px;
+}
+input{
+	height: 10%;
+	width: 50%;
+	font-size: 2em;
+	border-radius: 10px;
+}
+h1 > a{
+	text-decoration:none;
+	color: white;
+}
